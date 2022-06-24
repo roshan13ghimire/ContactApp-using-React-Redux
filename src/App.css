@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --crimson: crimson;
+    --white: white;
+    --ncolor :#0FFBB7;
+    --bcolor: #6c63ff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+.flex {
+    display: flex;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+.fs-60 {
+    font-size: 60px;
+}
+
+.wd-30 {
+    width: 30;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.wd-60 {
+    width: 60%;
+}
+
+.wd-70 {
+    width: 70%;
+}
+
+.wd-80 {
+    width: 80%;
+}
+
+.wd-90 {
+    width: 90%;
+}
+
+.white {
+    color: var(--white);
+}
+
+.header {
+    font-size: 5vw;
+    letter-spacing: 2px;
+    background-color: crimson;
+    text-align: center;
+    height: 25vh;
+    padding-top: 90px;
+    color: wheat;
+    text-transform: uppercase;
+}
+.companyNname{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.navList {
+    list-style: none;
+}
+
+.navListItem {
+    float: left;
+    margin-top: 30px;
+}
+
+.navListItemLinks {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--white);
+
+}
+.form{
+    width: 20%;
+    margin:40px auto;
+    
+}
+.allContacts{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.label{
+    margin-top:10px;
+}
+.input{
+    padding:10px;
+    width: 50%;
+
+}
+
+.flexButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    padding:10px 30px;
+    cursor: pointer;
+    outline:none;
+    border:none;
+    background-color: coral;
+    font-size: 20px;
+    margin-top:20px;
+
+}
+.button:hover{
+    background-color: crimson;
+    outline:none;
+    border:none;
+}
+.formSpace{
+    margin-top:30px;
+    justify-content: space-between;
+}
+.fas{
+    margin-left:10px;
+}
+.delButton{
+    color:blue;
+    outline:none;
+    background-color: var(--white);
+    border:none;
+    cursor:pointer;
+}
+
